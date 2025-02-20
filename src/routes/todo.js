@@ -2,7 +2,7 @@ import { Router } from "express";
 
 export const todoRouter = Router();
 
-let data = [
+const data = [
 	{ id: 1, description: "description1", status: "done" },
 	{ id: 2, description: "description2", status: "new" },
 	{ id: 3, description: "description3", status: "done" },
