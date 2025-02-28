@@ -6,7 +6,7 @@ import {
 	deleteTodoById,
 } from "../services/todo.service.js";
 
-export function getTodos(req, res) {
+export function getTodos(_, res) {
 	return res.json({
 		list: getAllTodos(),
 	});
